@@ -2,10 +2,10 @@
 var where = 'server';
 
 Package.describe({
-  name: 'lookback:emails',
+  name: 'pfafman:emails',
   summary: 'Send HTML emails with server side Blaze templates. Preview and debug in the browser.',
   version: '0.7.2',
-  git: 'https://github.com/lookback/meteor-emails.git'
+  git: 'https://github.com/pfafman/meteor-emails.git'
 });
 
 Npm.depends({
@@ -46,6 +46,6 @@ Package.onTest(function(api) {
   api.use([
     'practicalmeteor:mocha',
     'ecmascript',
-    'lookback:emails'
+    'pfafman:emails'
   ], where);
 });
