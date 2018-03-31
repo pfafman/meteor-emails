@@ -4,7 +4,7 @@ var where = 'server';
 Package.describe({
   name: 'pfafman:emails',
   summary: 'Send HTML emails with server side Blaze templates. Preview and debug in the browser.',
-  version: '0.7.2',
+  version: '0.7.3',
   git: 'https://github.com/pfafman/meteor-emails.git'
 });
 
@@ -14,7 +14,7 @@ Npm.depends({
 
 Package.onUse(function(api) {
 
-  api.versionsFrom('1.0.4');
+  //api.versionsFrom('1.0.4');
 
   api.use([
     'chrisbutler:node-sass@3.2.0',
